@@ -20,7 +20,7 @@ def load_model():
     filename="model.pth"
     )
     model=GPTModel(config)
-    model.load_state_dict(torch.load(model_path, weights_only=True))
+    model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
     model.eval();
     return model,config,tokenizer
 model,config,tokenizer=load_model()
@@ -77,3 +77,4 @@ if st.button("Submit"):
             st.info("Evaluation with LLaMA 3 started... (placeholder)")
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
