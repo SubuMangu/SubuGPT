@@ -17,7 +17,7 @@ def load_model():
     }
     model_path = hf_hub_download(
     repo_id="subumangu2003/subugpt",
-    filename="model_fp16.pth"
+    filename="model.pth"
     )
     model=GPTModel(config).half();
     model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
@@ -77,6 +77,7 @@ if st.button("Submit"):
             st.info("Evaluation with LLaMA 3 started... (placeholder)")
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
