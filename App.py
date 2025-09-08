@@ -19,9 +19,8 @@ def load_model():
     repo_id="subumangu2003/subugpt",
     filename="model_fp16.pth"
     )
-    model=GPTModel(config)
+    model=GPTModel(config).half();
     model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
-    model.half();
     model.eval();
     return model,config,tokenizer
 model,config,tokenizer=load_model()
@@ -78,6 +77,7 @@ if st.button("Submit"):
             st.info("Evaluation with LLaMA 3 started... (placeholder)")
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
