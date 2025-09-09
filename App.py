@@ -23,7 +23,7 @@ def load_model():
     model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
     model.eval();
     return model,config,tokenizer,model_path
-model,config,tokenizer,model_path=load_model()
+model,config,tokenizer=load_model()
 
 # Sidebar
 st.sidebar.markdown("## Made with ❤️ by SubuMangu")
@@ -74,6 +74,7 @@ if st.button("Submit"):
         
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
