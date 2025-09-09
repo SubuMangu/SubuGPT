@@ -1,5 +1,5 @@
 # SubuGPT 🤖
-
+- Hello there 🖐️..... this is Subrat and I made my own LLM from scratch.
 - App link: https://subugpt.streamlit.app/
 
 
