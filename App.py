@@ -71,12 +71,10 @@ if st.button("Submit"):
 )
         answer=response_text.strip()
         st.markdown(f"### Answer:\n{answer}")
-
-        # Evaluation button appears only after an answer is shown
-        if st.button("Evaluate Model with LLaMA 3 🦙"):
-            st.info("Evaluation with LLaMA 3 started... (placeholder)")
+        
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
