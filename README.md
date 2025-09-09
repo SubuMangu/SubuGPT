@@ -5,12 +5,6 @@
 
 ## ⚡ Usage
 
-## 🚀 Features
-
-* **431M parameters** trained from scratch
-* Can adjust temperature and top k to control the diversity in your answer
-
----
 
 ## 📊 Model Architecture
 
