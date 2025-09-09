@@ -22,8 +22,8 @@ def load_model():
     model=GPTModel(config).half();
     model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
     model.eval();
-    return model,config,tokenizer
-model,config,tokenizer=load_model()
+    return model,config,tokenizer,model_path
+model,config,tokenizer,model_path=load_model()
 
 # Sidebar
 st.sidebar.markdown("## Made with ❤️ by SubuMangu")
@@ -77,6 +77,7 @@ if st.button("Submit"):
             st.info("Evaluation with LLaMA 3 started... (placeholder)")
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
