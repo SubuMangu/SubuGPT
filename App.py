@@ -22,7 +22,7 @@ def load_model():
     model=GPTModel(config).half();
     model.load_state_dict(torch.load(model_path,map_location=torch.device('cpu'),weights_only=True))
     model.eval();
-    return model,config,tokenizer,model_path
+    return model,config,tokenizer
 model,config,tokenizer=load_model()
 
 # Sidebar
@@ -74,6 +74,7 @@ if st.button("Submit"):
         
     else:
         st.warning("⚠️ Please enter a prompt before submitting.")
+
 
 
 
