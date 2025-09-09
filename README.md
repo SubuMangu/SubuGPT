@@ -1,5 +1,6 @@
 # SubuGPT 🤖
 - Hello there 🖐️..... this is Subrat and I made my own LLM from scratch.
+- Made a clone of GPT2 medium and loaded it's pretrained weights.
 - App link: https://subugpt.streamlit.app/
 
 
