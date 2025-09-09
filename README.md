@@ -2,7 +2,6 @@
 
 - App link: https://subugpt.streamlit.app/
 
----
 
 ## ⚡ Usage
 
@@ -15,7 +14,7 @@
 
 ## 📊 Model Architecture
 
-
+<p align="center"><img src="Images/Screenshot 2025-09-09 155249.png" width="" height=""></p>
 
 ## 🧪 Evaluation
 
