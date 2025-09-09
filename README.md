@@ -4,11 +4,11 @@
 
 
 ## ⚡ Usage
-<p align="center"><img src="Images/Screen Recording 2025-09-09 160445.gif" width="" height=""></p>
+<p align="center"><img src="Images/Screen Recording 2025-09-09 160445.gif" width="500" height=""></p>
 
 ## 📊 Model Architecture
 
-<p align="center"><img src="Images/Screenshot 2025-09-09 155249.png" width="" height=""></p>
+<p align="center"><img src="Images/Screenshot 2025-09-09 155249.png" width="500" height=""></p>
 
 ## 🧪 Evaluation
 
