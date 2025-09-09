@@ -4,7 +4,7 @@
 
 
 ## ⚡ Usage
-<p align="center"><img src="Images/Screen Recording 2025-09-09 160445.gif" width="500" height=""></p>
+<p align="center"><img src="Images/Screen Recording 2025-09-09 160445.gif" width="750" height=""></p>
 
 ## 📊 Model Architecture
 
