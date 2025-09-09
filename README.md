@@ -22,7 +22,7 @@
 1. Finetuning with better instruction datasets.
 2. Integration of PEFTs like QLoRA
 3. Introducing advanced features like RLHF(Reinforment Learning on Human Feedback) and reasoning.
-
+4. Hosting model remotely in huggingface : https://huggingface.co/subumangu2003/subugpt
 ---
 
 ## 📜 License
