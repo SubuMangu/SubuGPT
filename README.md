@@ -31,6 +31,6 @@
 
 This project is licensed under the **Apache License** – see the [LICENSE](LICENSE) file for details.
 
-## References 
+## 📝 References and futher reading
 - [LLM from Scratch](https://github.com/rasbt/LLMs-from-scratch) by Sebastian Raschka
 
