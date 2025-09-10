@@ -16,14 +16,15 @@
 
 ## 🧪 Evaluation
 
-- Got a score of 50/100 on evaluating with llama 3
+- Got a score of 47.16/100 on evaluating our model with llama3(See `Evaluating GPT.ipynb` ).
+- We can further improve the model score by finetuning with more instruction datasets(See `Finetuning GPT.ipynb`).
 
 
 ## 🤝 Scope for Contribution
-1. Finetuning with better instruction datasets.
+1. Finetuning with better instruction datasets(See `Finetuning GPT.ipynb`).
 2. Integration of PEFTs like QLoRA
 3. Introducing advanced features like RLHF(Reinforment Learning on Human Feedback) and reasoning.
-4. Hosting model remotely in huggingface : https://huggingface.co/subumangu2003/subugpt
+4. Hosting model in huggingface : https://huggingface.co/subumangu2003/subugpt
 ---
 
 ## 📜 License
