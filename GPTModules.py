@@ -451,4 +451,13 @@ class InstructionDataset(Dataset):
 
     def __len__(self):
         return len(self.data)
-    
+config={
+        'vocab_size': 50257,
+    'context_length': 1024,
+    'drop_rate': 0.0,
+    'qkv_bias': True,
+    'dim': 1024,
+    'num_layers': 24,
+    'num_heads': 16
+    }
+
