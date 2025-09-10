@@ -22,7 +22,7 @@
 
 ## 🤝 Scope for Contribution
 1. Finetuning with better instruction datasets(See `Finetuning GPT.ipynb`).
-2. Integration of PEFTs like QLoRA
+2. Quantization and integration of PEFTs like LoRA.
 3. Introducing advanced features like RLHF(Reinforment Learning on Human Feedback) and reasoning.
 4. Hosting model in huggingface : https://huggingface.co/subumangu2003/subugpt
 ---
