@@ -14,6 +14,18 @@ SubuGPT is a custom large language model built by replicating GPT-2 Medium archi
 
 - **No of parameters:** 431M
 - **Vocab size:** 50257
+- **Embedding Dimention:** 1024
+- **Attention Mechanism:** Multihead Causal Attention
+- **Attention Heads:** 16
+- **Number of Transformer blocks:** 24
+
+## 🛠️ Implementation Details
+1. **Tokenization** using Byte Pair Encoding(BPE) using a tokenising package of OpenAI named `tiktoken`. Futher planned  to create a BPE from scratch.
+2. **Creating GPT Dataset** using the context window.
+3. **Making GPT Model** including transformer blocks with Multihead Causal Attention . See in Model Architecture section.
+4. **Pretraining** is done by loading the weights from gpt2 medium to our model. To pretrained the model from scratch you can train the model with GPT Dataset.
+5. **Finetuning** is done with instruction dataset available in `Dataset/instruction-data.json`. See `Finetuning_GPT.ipynb` for details.
+
 
 ## 🧪 Evaluation
 
