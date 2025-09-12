@@ -1,11 +1,12 @@
 # SubuGPT 🤖
-- Hello there 🖐️..... this is Subrat and I made my own LLM from scratch.
-- Made a clone of GPT2 medium and loaded it's pretrained weights.
-- App link: https://subugpt.streamlit.app/
+SubuGPT is a custom large language model built by replicating GPT-2 Medium architecture and extending it with evaluation, deployment, and fine-tuning experiments. The goal was to understand transformer internals and explore practical deployment of generative models.
+
+- **App link:** https://subugpt.streamlit.app/
 
 
 ## ⚡ Usage
 <p align="center"><img src="Images/Screen Recording 2025-09-09 160445.gif" width="750" height=""></p>
+
 
 ## 📊 Model Architecture
 
