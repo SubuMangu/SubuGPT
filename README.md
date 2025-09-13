@@ -26,15 +26,19 @@ SubuGPT is a custom large language model built by replicating GPT-2 Medium archi
 4. **Pretraining** is done by loading the weights from gpt2 medium to our model. To pretrained the model from scratch you can train the model with GPT Dataset.
 5. **Finetuning** is done with instruction dataset available in `Dataset/instruction-data.json`. See `Finetuning_GPT.ipynb` for details.
 
-
+## ⚙️ Environment & Resources
+- **VRAM usage:** ~8.32 GB(to be futher reduced by quantization)  
+- **Workspace:** Google Colab  
+- **Framework:** PyTorch
+  
 ## 🧪 Evaluation
 
-- Got a score of 47.16/100 on evaluating our model with llama3(See `Evaluating GPT.ipynb` ).
-- We can further improve the model score by finetuning with more instruction datasets(See `Finetuning GPT.ipynb`).
+- Got a score of 47.16/100 on evaluating our model with llama3(See `Evaluating_GPT.ipynb` ).
+- We can further improve the model score by finetuning with more instruction datasets(See `Finetuning_GPT.ipynb`).
 
 
 ## 🤝 Scope for Contribution
-1. Finetuning with better instruction datasets(See `Finetuning GPT.ipynb`).
+1. Finetuning with better instruction datasets(See `Finetuning_GPT.ipynb`).
 2. Quantization and integration of PEFTs like LoRA.
 3. Introducing advanced features like RLHF(Reinforment Learning on Human Feedback) and reasoning.
 4. Hosting model in huggingface : https://huggingface.co/subumangu2003/subugpt
