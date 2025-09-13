@@ -36,13 +36,11 @@ SubuGPT is a custom large language model built by replicating GPT-2 Medium archi
 - Got a score of 47.16/100 on evaluating our model with llama3(See `Evaluating_GPT.ipynb` ).
 - We can further improve the model score by finetuning with more instruction datasets(See `Finetuning_GPT.ipynb`).
 
-
 ## 🤝 Scope for Contribution
 1. Finetuning with better instruction datasets(See `Finetuning_GPT.ipynb`).
 2. Quantization and integration of PEFTs like LoRA.
 3. Introducing advanced features like RLHF(Reinforment Learning on Human Feedback) and reasoning.
 4. Hosting model in huggingface : https://huggingface.co/subumangu2003/subugpt
----
 
 ## 📜 License
 
