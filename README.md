@@ -27,7 +27,7 @@ SubuGPT is a custom large language model built by replicating GPT-2 Medium archi
 5. **Finetuning** is done with instruction dataset available in `Dataset/instruction-data.json`. See `Finetuning_GPT.ipynb` for details.
 
 ## ⚙️ Environment & Resources
-- **VRAM usage:** ~8.32 GB(to be futher reduced by quantization)  
+- **VRAM usage for finetuning:** ~8.32 GB(to be futher reduced by quantization)  
 - **Workspace:** Google Colab  
 - **Framework:** PyTorch
   
